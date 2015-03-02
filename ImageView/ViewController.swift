@@ -49,7 +49,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func superSpeed(sender: AnyObject) {
-        imgView.animationDuration = 1.0
+        imgView.animationDuration -= 0.5
         imgView.startAnimating()
     }
     
